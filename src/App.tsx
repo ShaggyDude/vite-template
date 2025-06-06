@@ -3,7 +3,7 @@ import { Tldraw } from 'tldraw'
 function App() {
 	return (
 		<div style={{ position: 'fixed', inset: 0 }}>
-			<Tldraw />
+			<Tldraw persistenceKey="my-persistence-key" />
 		</div>
 	)
 }
